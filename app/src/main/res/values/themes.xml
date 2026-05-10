@@ -2,8 +2,17 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.MobileApps20252301681018" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/md_theme_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_primaryContainer</item>
+        <item name="colorSurface">@color/md_theme_surface</item>
+        <item name="android:colorBackground">@color/md_theme_background</item>
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
     </style>
 
     <style name="Theme.MobileApps20252301681018" parent="Base.Theme.MobileApps20252301681018" />
+
+    <!-- Keep Theme.WanderPack as an alias or specific theme if needed -->
+    <style name="Theme.WanderPack" parent="Base.Theme.MobileApps20252301681018" />
 </resources>
