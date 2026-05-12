@@ -2,7 +2,7 @@ package com.example.mobileapps2025_2301681018.data.local.entity
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-    @Entity(tableName = "trips")
+@Entity(tableName = "trips")
     data class Trip(
         @PrimaryKey(autoGenerate = true)
         val id: Int = 0,
